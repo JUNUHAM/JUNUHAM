@@ -16,6 +16,4 @@
 </p>
 
 ## 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=JUNUHAM&show_icons=true&theme=tokyonight" alt="Jerrier's GitHub Stats" />
-</p>
+[![Jerrier's GitHub stats](https://github-readme-stats.vercel.app/api?username=JUNUHAM&show_icons=true&theme=radical&v=1)](https://github.com/anuraghazra/github-readme-stats)
