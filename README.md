@@ -28,3 +28,8 @@
 
 ## 📊 GitHub Stats
 [![Jerrier's GitHub stats](https://github-readme-stats-three-psi-74.vercel.app/api?username=JUNUHAM&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
+## 📅 My Commits in 3D
+<p align="center">
+  <img src="https://raw.githubusercontent.com/JUNUHAM/JUNUHAM/main/github-metrics.svg" alt="Metrics" />
+</p>
