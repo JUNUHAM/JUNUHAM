@@ -27,4 +27,4 @@
 </p>
 
 ## 📊 GitHub Stats
-[![Jerrier's GitHub stats](https://github-readme-stats.vercel.app/api?username=JUNUHAM&show_icons=true&theme=radical&v=1)](https://github.com/anuraghazra/github-readme-stats
+[![Jerrier's GitHub stats](https://github-readme-stats-three-psi-74.vercel.app/api?username=JUNUHAM&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
