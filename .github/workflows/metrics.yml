@@ -1,0 +1,30 @@
+name: Metrics
+on:
+  # 1. 매일 자정에 자동으로 실행 (UTC 기준)
+  schedule: [{cron: "0 0 * * *"}]
+  # 2. 원할 때 수동으로 버튼을 눌러서 실행할 수 있게 해줌
+  workflow_dispatch:
+  # 3. 메인 브랜치에 푸시가 일어날 때마다 실행
+  push: {branches: ["master", "main"]}
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # 1단계에서 등록한 비밀 토큰을 사용
+          token: ${{ secrets.METRICS_TOKEN }}
+          
+          # 기본 설정
+          user: JUNUHAM
+          template: classic
+          
+          # 기본 통계 정보는 끄고 (이전에 만든 통계 카드가 있으므로) 달력만 생성
+          base: "" 
+          
+          # 📅 Isometric commit calendar 플러그인 활성화
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year # full-year(1년)로 하면 너무 길게 나와서 half-year(반년)를 추천합니다.
